@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo p {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Spicy Rice", serif;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.footer-links li {
+    cursor: pointer;
+}
+
+.footer-copyRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 1000px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.footer-copyRight hr {
+    width: 100%;
+    height: 3px;
+    color: black;
+}

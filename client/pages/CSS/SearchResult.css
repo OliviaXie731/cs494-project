@@ -1,0 +1,8 @@
+.search-results {
+    display: grid;
+    grid-template-columns: repeat(5, 240px);
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+    gap: 20px;
+}
